@@ -19,12 +19,14 @@
     color: #fff;
     display: block;
     float: left;
+    padding: 20px;
 }
 
 .nav{
     line-height: 60px;
     height: 60px;
     background-color: #444;
+    padding: 20px;
 }
 
 .nav a{
@@ -39,4 +41,58 @@
 .nav li{
     display: block;
     float: left;
+    padding: 0 20px;
+}
+
+.main{
+    max-width: 70%;
+    display: block;
+    float: left;
+}
+
+.main h2{
+    padding: 20px 0;
+}
+
+.sidebar h3{
+    padding: 20px 0;
+}
+
+.sidebar{
+    max-width: 25%;
+    display: block;
+    float: right;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.content{
+    padding: 60px;
+}
+
+.container img{
+    max-width: 100%;
+}
+
+.footer{
+    margin-top: 30px;
+    padding-top: 30px;
+    clear: both;
+    border-top: 2px solid #ccc;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.footer li{
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #ff3600;
 }
