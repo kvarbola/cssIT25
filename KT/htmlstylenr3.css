@@ -1,39 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    padding: 0%;
+    margin: 0%;
     font-family: Montserrat;
 }
 
-.logo {
-    height: 265px;
+.container{
+    max-width: 1200px;
     margin: auto;
-    padding: 12px 24px;
-    color: blue;
-
 }
 
-.content {
-    height: 400px;
-}
-
-.content h2{
-    font-family: Montserrat;
-    font-size: 36px;
-}
-
-.content p{
-    font-size: 18px;
-}
-
-.content img{
-    padding: 20px;
-    float: right;
-}
-
-.nav {
+.nav{
     height: 50px;
-    font-family: Montserrat; 
-    font-size: 18px;
 }
 
 .nav a{
@@ -48,14 +25,49 @@
 .nav li{
     display: block;
     float: left;
-    padding: 12px 24px
+    padding: 12px 24px;
+    font-size: 18px;
 }
 
-.footer {
-    opacity: 64%;
-    margin: 24px;
-    padding: 64px;
-    background-color: #111;
+.logo {
+    margin: auto;
+    height: 265px;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+}
+
+.logo p{
+    font-size: 24px;
+}
+
+.logo a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
     color: white;
 }
 
+.logo ul{
+    list-style-type: none;
+}
+
+.logo li{
+    background-color: black;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+.main {
+}
+
+.main img{
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    opacity: 64%;
+    padding: 64px;
+    text-align: center;
+}
