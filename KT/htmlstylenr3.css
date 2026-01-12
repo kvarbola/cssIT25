@@ -4,11 +4,13 @@
     font-family: Montserrat;
 }
 
-.header {
+.logo {
+    height: 265px;
     margin: auto;
+    padding: 12px 24px;
     color: blue;
-}
 
+}
 
 .content {
     height: 400px;
@@ -53,6 +55,7 @@
     opacity: 64%;
     margin: 24px;
     padding: 64px;
-    background-color: gray;
+    background-color: #111;
+    color: white;
 }
 
