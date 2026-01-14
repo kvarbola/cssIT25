@@ -1,7 +1,6 @@
 *{
     padding: 0%;
     margin: 0%;
-    font-family: Montserrat;
 }
 
 .container{
@@ -11,6 +10,7 @@
 
 .nav{
     height: 50px;
+    font-family: Montserrat;
 }
 
 .nav a{
@@ -35,6 +35,11 @@
     font-size: 64px;
     color: white;
     text-align: center;
+    font-family: Montserrat;
+}
+
+.logo h1{
+    font-weight: 400;
 }
 
 .logo p{
@@ -52,15 +57,48 @@
 }
 
 .logo li{
+    font-size: 18px;
+    display: inline-block;
     background-color: black;
     padding: 12px 24px;
-    font-size: 18px;
 }
 
-.main {
+.content {;
+    height: 400px;
+}
+
+.main h2{
+    font-family: Montserrat;
+    font-size: 36px;
+    max-width: 50%;
+    margin: auto;
+    height: 100px;
+}
+
+.main p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    max-width: 50%;
+    margin: auto;
+    height: 150px;
+}
+
+.main p.Teine{
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    max-width: 50%;
+    margin: auto;
 }
 
 .main img{
+    display: block;
+    float: right;
+    padding: 20px;
+    margin-bottom: 30px;
 }
 
 .footer {
@@ -68,5 +106,8 @@
     color: white;
     opacity: 64%;
     padding: 64px;
+    font-size: 24px;
+    margin: auto;
+    display: block;
     text-align: center;
 }
