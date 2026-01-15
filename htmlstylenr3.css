@@ -30,7 +30,7 @@
 }
 
 .logo {
-    padding-top: 100px;
+    padding-top: 10px;
     margin: auto;
     height: 265px;
     font-size: 64px;
@@ -65,7 +65,7 @@
 }
 
 .content {;
-    padding: 400px;
+    padding: 40px;
 }
 
 .main h2{
